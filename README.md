@@ -72,4 +72,4 @@ where $USERNAME is a specific member of the webring.
 
 For example, if your webring is hosted on "https://xiokka.neocities.org/webring/", you would be redirected to the user next to Xiokka by visiting:
 
-https://xiokka.neocities.org/users/Xiokka/next.html
+https://xiokka.neocities.org/webring/users/Xiokka/next.html
