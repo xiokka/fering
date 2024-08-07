@@ -32,7 +32,10 @@ Example
 ```bash
 fering add_user Xiokka https://xiokka.neocities.org/
 ```
-You must use the full URL.
+You must use the full URL. If the $username parameter has whitespaces it must be surrounded by quotation marks
+```bash
+fering add_user "A really long username" https://xiokka.neocities.org/
+```
 
 Once a new user is added, the corresponding subdirectory is created inside the users directory. Inside the new directory, you will find three files: "tags.txt", "description.html" and "url.txt".
 tags.txt contains the tags for that user, where each tag is separated by a whitespace. For example:
