@@ -58,12 +58,13 @@ public/$TAG/index.html contains all users tagged with $TAG in their tags.txt fil
 Each user has a next.html and previous.html file, which redirect to the next and previous users.
 
 
-To be redirected to the next user of $USERNAME:
+To be redirected to the user next to $USERNAME:
 
 public/users/$USERNAME/next.html
 
 
-To be redirected to the previous user of $USERNAME:
+To be redirected to the user previous to $USERNAME:
+
 public/users/$USERNAME/previous.html
 
 where $USERNAME is a specific member of the webring.
