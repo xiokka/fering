@@ -34,12 +34,12 @@ fering add_user Xiokka https://xiokka.neocities.org/
 ```
 You must use the full URL.
 
-Once a new user is added, the corresponding subdirectory is created inside the users directory. Within that entry, you will find three files: "tags.txt", "description.html" and "url.txt".
+Once a new user is added, the corresponding subdirectory is created inside the users directory. Inside the new directory, you will find three files: "tags.txt", "description.html" and "url.txt".
 tags.txt contains the tags for that user, where each tag is separated by a whitespace. For example:
 ```
 linux programming command_line
 ```
-assigns tags tags "linux", "programming" and "command_line" for that user.
+assigns tags "linux", "programming" and "command_line" to that user.
 
 description.html contains HTML which will be inserted into the profile of that user in the webring hub. It can be used as a simple user introduction/profile inside the webring hub.
 
