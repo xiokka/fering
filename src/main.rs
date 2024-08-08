@@ -119,6 +119,10 @@ fn main() -> io::Result<()> {
         }
 
         "print_users_by_tag" => {
+            if !project_exists() {
+                eprintln!("Error: No webring found. Please run from webring project root directory.");
+                return Ok(());
+            }
             let tags_map = filter_users_by_tag();
 
             for (tag, paths) in tags_map {
@@ -130,6 +134,10 @@ fn main() -> io::Result<()> {
         }
 
         "generate" => {
+            if !project_exists() {
+                eprintln!("Error: No webring found. Please run from webring project root directory.");
+                return Ok(());
+            }
             if let Err(e) = generate_site() {
                 eprintln!("Error generating site: {}", e);
             }
